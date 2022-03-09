@@ -1,3 +1,8 @@
-# css-Codecleanup?
+# css-Codecleanup
 
-test 입니다.
+const toTopEl = document.querySelector('#to-top');
+toTopEl.addEventListener('click', function () {
+  gsap.to(window, .7, {
+    scrollTo: 0
+  })
+})
